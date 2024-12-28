@@ -4,10 +4,12 @@ import styles from "./HBA1CLevelRange.module.css";
 
 export type HBA1CLevelRangeType = {
   className?: string;
+  yourEstimatedHbA1cLevels?: string;
 };
 
 const HBA1CLevelRange: FunctionComponent<HBA1CLevelRangeType> = ({
   className = "",
+  yourEstimatedHbA1cLevels,
 }) => {
   return (
     <section className={[styles.hba1cLevelRange, className].join(" ")}>
@@ -15,7 +17,7 @@ const HBA1CLevelRange: FunctionComponent<HBA1CLevelRangeType> = ({
         <div className={styles.hbAcRangeCalculation}>
           <div className={styles.yourEstimatedHba1cLevelsParent}>
             <h3 className={styles.yourEstimatedHba1c}>
-              Your estimated HbA1c Levels
+              {yourEstimatedHbA1cLevels}
             </h3>
             <div className={styles.calculatedBasedOn}>
               Calculated based on your inputs and health reports.

@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 650px) {
   .matterhornPopup {
-    padding: 10px;
+    padding: var(--padding-3xs);
     box-sizing: border-box;
   }
 }

@@ -45,7 +45,7 @@
 }
 .buildYourOwnTeamLibraryParent {
   align-self: stretch;
-  gap: 18px;
+  gap: var(--gap-lg);
 }
 .recruiterPage,
 .recruiterPageInner {

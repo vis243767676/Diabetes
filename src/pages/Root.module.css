@@ -265,7 +265,7 @@
   line-height: 14px;
   display: inline-block;
   flex-shrink: 0;
-  color: #cf8612;
+  color: var(--typography-extradark-yellowishorange);
 }
 .frameChild32 {
   height: 28px;

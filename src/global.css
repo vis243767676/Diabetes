@@ -15,39 +15,52 @@ body {
   --app-mweb-labels-l1-size: 11px;
   --app-mweb-header-h3-size: 16px;
   --app-mweb-header-h2-size: 18px;
+  --app-mweb-labels-l4-size: 10px;
 
   /* Colors */
   --color-gray-100: #fafafa;
   --typography-jet-gray: #2b2b2b;
   --typography-gray: #575756;
   --surface-white: #fff;
+  --borders-dividers: #f2f2f2;
   --surface-extralight-bluishgray: #eff2f4;
   --typography-ash-gray: #b3b3b3;
   --icons-error: #b31921;
   --typography-extradark-green: #3c6407;
   --icons-success: #568f0a;
+  --typography-extradark-yellowishorange: #cf8612;
   --tertiary-400: #fda416;
   --error-400: #da1e28;
   --brand-primary: #005dac;
   --success-400: #64a70b;
+  --background-extralight-primary: #f0f9ff;
+  --background-light-gray: #dadada;
 
   /* Spacing */
   --spacing-16: 16px;
   --radius-8: 8px;
   --spacing-8: 8px;
   --spacing-4: 4px;
+  --radius-20: 20px;
+  --radius-12: 12px;
+  --spacing-12: 12px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
 
   /* Gaps */
   --gap-base: 16px;
+  --gap-lg: 18px;
   --gap-5xs: 8px;
   --gap-15xl: 34px;
   --gap-9xs: 4px;
   --gap-base-8: 16.8px;
   --gap-7xs-9: 5.9px;
   --gap-12xs-5: 0.5px;
+  --gap-11xs: 2px;
 
   /* Paddings */
   --padding-xl: 20px;
+  --padding-base: 16px;
   --padding-xs: 12px;
   --padding-5xl-8: 24.8px;
   --padding-lg: 18px;
@@ -60,9 +73,14 @@ body {
   --padding-9xs: 4px;
   --padding-smi: 13px;
   --padding-5xs: 8px;
+  --padding-21xl: 40px;
+  --padding-5xl: 24px;
+  --padding-3xs: 10px;
 
   /* Border radiuses */
   --br-5xs: 8px;
   --br-12xs: 1px;
   --br-9xs: 4px;
+  --br-xl: 20px;
+  --br-xs: 12px;
 }

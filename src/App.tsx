@@ -5,8 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Root from "./pages/Root";
+import Weight from "./pages/Weight";
 import RecruiterPage from "./pages/RecruiterPage";
+import Root from "./pages/Root";
 
 function App() {
   const action = useNavigationType();
@@ -32,6 +33,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/root":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -50,8 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Root />} />
+      <Route path="/" element={<Weight />} />
       <Route path="/recruiter-page" element={<RecruiterPage />} />
+      <Route path="/root" element={<Root />} />
     </Routes>
   );
 }

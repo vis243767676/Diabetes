@@ -93,7 +93,7 @@ const Root: FunctionComponent = () => {
 
   return (
     <div className={styles.root}>
-      <HBA1CLevelRange />
+      <HBA1CLevelRange yourEstimatedHbA1cLevels="Your estimated HbA1c Levels" />
       <div className={styles.factorsImpact} data-acc-group>
         <div className={styles.factorsDescription}>
           <h3 className={styles.factorsAffectingHba1c}>

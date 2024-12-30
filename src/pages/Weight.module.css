@@ -411,11 +411,13 @@
 .weightValues {
   align-self: stretch;
   display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.weightValues {
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
   padding: 0 var(--spacing-16);
-  gap: var(--gap-base);
 }
 .frameParent {
   border-radius: var(--radius-12);
@@ -661,9 +663,11 @@
 .dietImprovement,
 .goalContainer {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.goalContainer {
+  flex-direction: column;
   padding: var(--padding-9xs) 0 0;
 }
 .dietImprovement {
